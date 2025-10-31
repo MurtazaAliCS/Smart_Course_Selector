@@ -2,16 +2,13 @@
 
 A Django web application that helps students choose the most suitable course or specialization based on their interests, strengths, and previous academic performance.
 
----
-
 ## Overview
 
 This project was developed during my **second year** of the BSc (Hons) Computer Science degree.  
 The idea was to design a simple recommendation system that could assist students when deciding what course or path to take next.
 
-The system collects a few details about the user — such as interests, subject preferences, and academic background — and then generates ranked course suggestions using a basic scoring model.
-
----
+The system collects a few details about the user, such as their interests, subject preferences, and academic background.  
+It then compares this information against a small dataset of available courses and produces ranked course suggestions using a basic scoring model.
 
 ## Features
 
@@ -19,23 +16,19 @@ The system collects a few details about the user — such as interests, subject 
 - 🧮 Simple scoring algorithm to rank courses  
 - 💾 SQLite database for storing course data and user inputs  
 - ⚙️ Admin dashboard to manage course information  
-- 📱 Responsive layout (works on desktop and mobile)
-
----
+- 📱 Responsive layout that works on both desktop and mobile devices
 
 ## Tech Stack
 
 - **Language:** Python  
 - **Framework:** Django  
 - **Database:** SQLite  
-- **Frontend:** HTML, CSS, a bit of JavaScript  
+- **Frontend:** HTML, CSS, and a bit of JavaScript  
 - **Tools:** Git, GitHub, VS Code
-
----
 
 ## Getting Started
 
-If you want to run the project locally:
+If you want to run the project locally, follow these steps:
 
 ```bash
 # 1. Clone the repo
